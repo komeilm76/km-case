@@ -46,7 +46,7 @@ const flat = (entry: string) => {
 const cases = (entry: string) => {
   return {
     camel: camel(entry),
-    pascaal: pascal(entry),
+    pascal: pascal(entry),
     kebab: kebab(entry),
     snake: snake(entry),
     lower: lower(entry),
